@@ -1,0 +1,28 @@
+<ion-view title="Novo Usuario" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="novoUsuario-form2" class="list">
+      <label class="item item-input" id="novoUsuario-input3">
+        <span class="input-label">Nome</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="novoUsuario-input4">
+        <span class="input-label">CPF</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="novoUsuario-input5">
+        <span class="input-label">e-mail</span>
+        <input type="email" placeholder="">
+      </label>
+      <label class="item item-input" id="novoUsuario-input6">
+        <span class="input-label">Data de Nascimento</span>
+        <input type="date" placeholder="">
+      </label>
+      <label class="item item-input" id="novoUsuario-input7">
+        <span class="input-label">Senha</span>
+        <input type="password" placeholder="">
+      </label>
+      <a ui-sref="menu.inicio" id="novoUsuario-button4" class="button button-positive  button-block" (click)="cadastrar()">Cadastrar</a>
+    </form>
+    <a ui-sref="menu.inicio" id="novoUsuario-button3" class="button button-positive  button-block">Cancelar</a>
+  </ion-content>
+</ion-view>

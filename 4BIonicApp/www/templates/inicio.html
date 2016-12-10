@@ -1,0 +1,16 @@
+<ion-view title="Inicio" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="inicio-form1" class="list">
+      <label class="item item-input" id="inicio-input1">
+        <span class="input-label">Login</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="inicio-input2">
+        <span class="input-label">Senha</span>
+        <input type="password" placeholder="">
+      </label>
+    </form>
+    <a ui-sref="menu.listaDeUsuarios" id="inicio-button1" class="button button-positive  button-block" (click)="login()">Login</a>
+    <a ui-sref="menu.novoUsuario" id="inicio-button2" class="button button-positive  button-block">Cadastre-se</a>
+  </ion-content>
+</ion-view>
